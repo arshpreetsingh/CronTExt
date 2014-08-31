@@ -1,0 +1,411 @@
+\starttext 
+Human factors often considered weakest link in computer Security system. Computer security is necessary. Many Security researchers point out 
+that there are three major areas where human computer interaction is important : Authentication, security operations and developing secure systems. 
+There is currently the phenomenon of threats at the threshold of the internet, internal networks and secure environments. Although security researchers 
+have made great strides in fighting these threats by protecting systems, individual users and digital assets, unfortunately the threats continue to 
+cause problems. The principle area of attack is AUTHENTICATION, which is of course the process of determining the accessibility of a user to a 
+particular resource or system.Here we focus on authentication problem. Authentication in the computer world refers to the act of confirming the 
+authenticity of the user's digital identity claim. Currently, popular authentication mechanisms are mainly based the following factors: something that 
+the user has (an object), knows (a secret), or uniquely represents him (biometric identifiers) [1]. In the simplest form, a system that requires 
+authentication challenges the user for a secret, typically a pair of username and password. The entry of the correct pair grants access on the system’s 
+services or resources. Unfortunately,
+ this approach is susceptible to several vulnerabilities and drawbacks. These shortcomings range from user selected weak or easily guessable passwords 
+to more sophisticated threats such as malware and keyboard sniffers [2]. An adversary has an abundance of opportunities to compromise the text-based 
+password authentication mechanisms. For long time the computer industry has been in a quest for better alternatives but without popular success: most 
+of our current systems still use the primitive text-based authentication schemes.
+ For the vast majority of computer systems, pass words is the method of choice for authenticating users. The most widely and commonly used 
+authentication is traditional “Username” and “Password”. Today, passive or active users are the key consideration of security mechanisms. Th e passive 
+user is only interested in understanding the system . The active user, on the other hand, will consider and reflect o n ease of use, efficiency , 
+memorability, effectiveness and satis faction of the system. For such , Aut hentication Methods can be divi ded into three main area s: Token Based 
+authentication, Biomet ric based authentication , Knowledge based auth entication. Token based techniques, such as key cards , bank cards and smart 
+cards are widely us ed. Many token-based authen tication systems also use knowledge
+ based techniques to enhance securit y. For example, ATM cards are general ly used together with a PIN number. Biometric based authentication tec 
+hniques, such as fingerprints, iris scan, or faci al recognition, are not yet widely ado pted. The major drawback of this approach is that such systems 
+can be expe nsive, and the identification process can be slow and often unreliable. However, this type
+ of technique provides the highest level of security.
+
+\section{Problems in Text based password scheme}
+
+Knowledge based techniques are the most widely used authentication techniques and include both text-based and picture-based passwords.Graphical Password can be formed in the combination of Image Icons or Pictures.  In other words, graphical password is an authentication system that 
+works by having the user select from images, in a specific order, presented in a graphical user interface (GUI).  For this reason, the 
+graphical-password approach is sometimes called graphical user authentication (GUA).  Computer and Information security is very much dependent on 
+password for the authentication of the users and are common in practice. The password design methods include text method, Biometrics. Biometrics scheme 
+cannot be used widely. Text method is most widely used, since it is easy to implement and use. One of the main limitation in text-based password is the 
+difficulty of remembering it. Studies have shown that users tend to pick short and easy passwords that can be used by them easily.  But, these 
+passwords can also be easily guessed or broken. Text based password scheme is lacking the above essential points mostly. Graphical based passwords 
+might be a solution to the problems. Greg Blonder pioneered the idea of graphical passwords in 1996. His idea is to let the user click (with a mouse or 
+stylus) on a few chosen (predesigned) regions in (pre-processed) an image that appears on the screen. Problems in Text based password scheme User may 
+forget the password if it is too long or complicated or the password remain unused for a long time. Watching a user log on as they type their password.  
+Dictionary attacks.
+
+\section{Graphical password scheme}
+
+
+It is a better alternative to text based password scheme. To amend the some of the shortcomings of the textual passwords, researchers turned their 
+attention to passwords that utilize graphical objects [3, 4, 5]. Graphical authentication has been proposed as a user-friendly alternative to password 
+generation and authentication [6, 7]. The main difference to textual passwords is the use if a device with graphical input: the user enters the 
+password by clicking on a set of images, specific pixels of an image, or by drawing a pattern in a pre-defined and secret order. The proposed systems 
+claim to provide a superior space of possible password combinations compared to traditional 8-character textual passwords [4]. This property alone 
+renders attacks including dictionary attacks and keyboard sniffers computationally hard increasing our ability to defend against brute-force attacks. 
+Furthermore, according to Picture Superiority Effect Theory [8], concepts are more likely to be recognized and remembered if they are presented as 
+pictures rather than as words. Thus, graphical password presumably delivers a higher usability compare to text-based password. Pictures are generally 
+easier to be remembered than text. If the number of pictures is sufficiently large, the possible password space of a graphical password scheme may 
+exceed that of text based schemes and hence may prove to offer better resistance to dictionary attacks. Examples include places we visited, faces of 
+people and things we have seen which are easy to reframe. Difficult to implement automated attacks (such as dictionary attacks) against graphical 
+passwords. The picture-based techniques can be further divided into two categories: recognition-based and recall-based graphical techniques. Using 
+recognition-based techniques, a user is presented with a set of images and the user passes the authentication by recognizing and identifying the images 
+he or she selected during the registration stage. Using recall-based techniques, a user is asked to reproduce something that he or she created or 
+selected earlier during the registration stage.
+The past decade has seen a growing interest in using graphical passwords as an alternative tothe traditional text-based passwords. Researchers are 
+continually introduci ng new ideas,concepts, and features in the field of graphical authentication. There are already manyapproaches have been proposed 
+in present times. Graphical password techniques can beclassified into two categories: recognition-based and recall-based. In recognition-basedsystems, 
+a series of images are presented to the user and a successful authenticationrequires a correct images being clicked in a right order. In recall-based 
+systems, the useris asked to reproduce something that he or she created or selected earlier during theregistration. Blonder gave the initial idea of 
+graphical password in 1996. In his scheme, a user ispresented with one predetermined image on a visual display and required to select one or 
+morepredetermined positions on the displayed image in a particular order to access the restrictedresource [5]. The major drawback of this scheme is 
+that users cannot click arbitrarily on thebackground. The memorable password space was not studied by the author either. Wiedenbeck et al [6] proposed 
+PassPoint method in which they extended Blonder’s idea by eliminating the
+International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online)
+Volume 3, Issue 2, July- Septembe r (2012), © IAEME 
+predefined boundaries and allowing arbitrary images to be used. As a result, a user can click onany place on an image (as opposed to some pre-defined 
+areas) to create a password. A tolerancearound each chosen pixel is calculated. In order to be authenticated, the user must click withinthe tolerance 
+of their chosen pixels and also in the correct sequence. Few grid based schemes areproposed which uses recall method. Jermyn et al [7] proposed a 
+technique called “Draw ASecret” (DAS) where a user draws the password on a 2D grid. The coordinates of thisdrawing on the grid are stored in order. 
+During authentication user must redraw the picture.The user is authenticated if the drawing touches the grid in the same order. The major drawback of 
+DAS is that diagonal lines are difficult to draw and difficulties might arise when theuser chooses a drawing that contains strokes that pass too close 
+to a grid-line. Users haveto draw their input sufficiently away from the grid lines and intersections in order to enter thepassword correctly. If a 
+user draws a password close to the grid lines or intersections, thescheme may not distinguish which cell the user is choosing. Syukri et al. [8] 
+proposed a systemwhere authentication is conducted by having the user drawing his/her signature using a mouse.Dhamija and Perrig [9] proposed a 
+graphical authentication scheme in which the user selectscertain number of images from a set of random pictures during registration. Later user has 
+toidentify the pre-selected images for authentication. The users are presented a set of pictures onthe interface, some of them taken from their 
+portfolio, and some images selectedrandomly. For successful authentication, users have to select ‘their’ pictures amongst thedistracters. Passface is a 
+technique developed by Real User Corporation [10]. The basic idea issame as Dhamija and Perrig method. Here the user is asked to choose four images of 
+humanfaces from a face database as their password. There is a common weakness in the abovegraphical password schemes: they are all vulnerable to 
+shoulder-surﬁng attacks. To address thisissue, Sobrado and Birget developed a graphical password technique [11]. In their scheme, thesystem ﬁrst 
+displays a number of 3 pass-objects (pre-selected by a user) among many otherobjects. To be authenticated, a user needs to recognize pass-objects and 
+click inside the triangleformed by the 3 pass-objects. Man, et al. [12] proposed another shoulder-surﬁng resistantalgorithm in which a user selects a 
+number of pictures as pass-objects. Each pass-object hasseveral variants and each variant is assigned a unique code. During authentication, the user 
+ischallenged with several scenes. Each scene contains several pass-objects and many decoy-objects. The user has to type in a string with the unique 
+codes corresponding to the pass-object.However, these methods force the user to memorize too many text strings, and their shoulder-surﬁng resistant 
+property is not strong either. Chiasson et al [13] proposed a cued-recallgraphical password technique. Users click on one point per image for a 
+sequence of images. Thenext image displayed is based on the previous click point so users receive implicit feedback as to whether they are on the 
+correct path when logging in. A wrong click leads down anincorrect path, with an explicit indication of authentication failure only after the final 
+click.The visual cue does not explicitly reveal right or wrong but is evident using knowledge only thelegitimate user should possess. These techniques 
+have the potential to fill the gaps left betweentraditional authentication techniques, including trade-offs between security levels, expense anderror 
+tolerance [14]. But unfortunately in real scenario, these approaches are under-utilized as theauthentications are usually complex and boring for users.
+
+
+
+
+\subsection{Usability Features} 
+
+In human computer interaction and computer science, usability usually refers to the eleganceand clarity with which the interaction 
+with a computer program or a web site is designed. Typicaldictionary definitions show ‘usability’ to be a noun to the adjective ‘usable’, which means 
+thatsomething is capable of being used, or is convenient and practicable for use.
+  
+\subsection{Password Strength} 
+
+Wikipedia define the password strength as the likelihood that a password can be guessed by anunauthorized person or computer. 
+Passwords easily guessed are known as weak or vulnerable;passwords very difficult or impossible to guess are considered strong. The terms weak and 
+strongare relative and have meaning only with regard to specific password systems. T he necessaryquality of the password depends on how well the 
+password system limits attempts to guess auser's password, whether by a person who knows the user well, or a computer trying millions of possibilities. 
+In this section, we will discuss the password strength of our scheme byconsidering both the password space of the text password and the graphical 
+password parts.The p assword space of first round authentication will be R
+where p is themaximum number of images used to form the password.Now consider the round-2 authentication. Let M×N be the size of the image portfolio 
+andsuppose the size of the allowable click-area is n×n for any POI. So the available numbers of POIare ×௡ మ . A text password of maximum length q
+International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- 
+September (2012), © IAEME 585
+characters are selected uniformly at random and independently from an alphabet of C characters.Naturally the password space of second round 
+authentication.
+ 
+\subsection{Resisting Brute Force and Dictionary Attacks} 
+
+Dictionary attack is normally used to crack the text password. In hybrid scheme, first 
+roundauthentication is based on graphical password and second round also involves mouse input, so itwill be impractical to carry out dictionary attacks 
+against this scheme. Effort required in brute-force is directly proportional to the password space. In our scheme password space is very large.So an 
+enormous effort is required to apply a brute force attack against our scheme. The attack programs need to automatically generate accurate 
+click-positions to imitate human input, whichis particularly difficult for this scheme.
+ 
+\subsection{Mitigating Keylogger Attacks}
+
+Keylogging is a common method for 
+stealing user text passwords. A keylogger is malicioussoftware which 
+intercepts keystrokes on an infected machine as a user types. For 
+example,Microsoft Windows provides (un-documented) interfaces 
+facilitating interception of systemevents including keystrokes. With our 
+hybrid scheme, a user would use the keyboard for the textpassword part, 
+and mouse clicks for the graphical parts. Thus, a naive keylogger cannot 
+obtainthe graphical parts. More sophisticated malware can capture both 
+user screen contents and mouseclicks to recover a graphical password, 
+with more effort. But it is not clear whether “mousetracking” spyware 
+will be an effective tool against graphical passwords. However, mouse 
+motionalone is not enough to break graphical passwords. Such information 
+has to be correlated withapplication information, such as window 
+position and size, as well as timing information.
+ 
+\subsection{Mitigating Phishing Attacks}
+
+
+Phishing is another common technique for 
+stealing passwords by fooling users to enter suchinformation into a 
+fraudulent website spooﬁng a legitimate one (e.g., a bank site). 
+Socialengineering tactics are often used (e.g., “urgent account update”, 
+requests to verify faketransactions, etc.). In hybrid system, the image 
+portfolio of first round authentication may besame to all users. So an 
+expert phisher can steal the password of first part easily. But in 
+secondround authentication, it is very difficult to crack even users’ 
+text password. Our text password isassociated with a POI which is 
+graphical part. Without the knowledge of users’ image proﬁle, thephisher 
+does not know what images to present in order to extract a POI. So 
+obtaining its round-2password is very difficult.Resisting Shoulder Surfing Attacks: Like text based passwords, most of 
+the graphical passwords are vulnerable to shoulder surfing.At this 
+point, our policy provides a solid resistance against shoulder surfing 
+attack. In first roundauthentication, the user is presented with a set 
+of 25 images. Naturally the size of each imagewill be very small and 
+each login time the order of the images will be random. This technique 
+isspecially deployed to make an imposter confused who is trying to 
+memorize the authenticationdetails from the backside .
+
+
+
+
+\section{Using CAPTCHA in Graphical Password Scheme}
+
+Text-based password schemes have inherent security and usability 
+problems, leading to the development of graphical password schemes. 
+However, most of these alternate schemes are vulnerable to spyware 
+attacks. We propose a new scheme, using CAPTCHA (Completely Automated 
+Public Turing tests to tell Computers and Humans Apart) that retaining 
+the advantages of graphical password schemes, while simultaneously 
+raising the cost of adversaries by orders of magnitude. Furthermore, 
+some primary experiments are conducted and the results indicate that the 
+usability should be improved in the future work.
+
+
+\section{NUMERIC AND GRAPHICAL SCHEME}
+
+
+Day by day number of Internet users increasing. Now people are using different online services provided by Banks, College/Schools, Hospitals, online 
+utility bill payment and online shopping sites. To access online services Text-based authentication system is in use. The text-based authentication 
+scheme faces some drawbacks with usability and security issues that bring troubles to users. For example, if the user is not very intelligently 
+constructed the password with extra security measures, it is very easy to hack for an expert hacker. On the contrary, if a password is hard to guess, 
+then it is often hard to remember. A person has to memorize as many password as many different websites he/she is using. So he/she gets confused and/or 
+forgets the correct userId/password combinations. We should have an alternative system to overcome these problems. To deal with these drawbacks, 
+authentication scheme that use a combination of images as password is proposed. Graphical passwords consist of clicking or dragging activities on the 
+pictures rather than typing textual characters, might be the option to overcome the problems that arises from the Text-based password system. In this 
+paper, a comprehensive study of the existing graphical password schemes and shoulder surfing problem is performed. The best way in asynchronous mode 
+user/password validation and One Time Password authentication is proposed for enhancement in security and privacy.
+
+\section{Click-Draw Based Graphical Password Scheme}
+
+
+Nowadays, graphical password is being regarded as a promising alternative in network security to replace traditional text-based password in which users 
+interact with images for authentication rather than input alphanumeric stings. In general, this image-based authentication can be classified into three 
+categories: click-based graphical password, choice-based graphical password and draw-based graphical password. However, each of them suffers from 
+several intrinsic limitations. In this paper, we propose and develop a click-draw based graphical password scheme (CD-GPS) with the purpose of 
+improving the image-based authentication in both security and usability by combining the above three techniques. Specifically, our scheme mainly 
+contains two operational steps: image selection and secret drawing. That is, users first choose an ordered sequence of images and then select some of 
+them to click-draw their secrets. We present an initial user study which shows positive results that our scheme is good at both security and usability, 
+and subsequently give a preliminary security analysis of our scheme against several well-known attacks (e.g., dictionary attack).
+
+\section{Hybrid Password Scheme}
+
+
+INTERNATIONAL JOURNAL OF COMPUTER ENGINEERING & International Journal of Computer Engineering and Technology (IJCET)  Asraful Haque, Babbar Imam, Nes
+ar Ahmad 
+Department of Computer Engineering, Aligarh Muslim 
+University, U.P.-202002, India asrafb4u@gmail.com, babbarimam5@gmail.com, nesar.ahmad@gmail.com ABSTRACT The most common computer authentication method 
+is to use alphanumerical usernames and passwords. This method has been shown to have significant drawbacks. They have problems such as being hard to 
+remember, vulnerable to guessing, phishing, dictionary attack, key-logger, and social engineering. Researchers have come out with an alternate password 
+scheme called graphical password where they tried to improve the security and avoid the weakness of conventional password. Psychological studies say 
+that human can remember pictures better than text. But graphical password scheme also has several drawbacks like shoulder-surfing problem, more storage 
+space required and hard to implement compared to text passwords. In this paper, we have suggested a hybrid authentication system combining graphical 
+and text passwords. User authentication has been verified in two steps to increase the security. We believe that in our system, users will be able to 
+select stronger passwords through better user interface design. Keywords: Graphical Passwords, Text Passwords, User Authentication, Security, Password- 
+Space I. INTRODUCTION AUTHENTICATION refers to the process of confirming or denying an individual’s claimed identity. Passwords are the most common 
+means of authentication which do not require any special hardware. Typically passwords are strings of letters and digits. Alphanumeric passwords are 
+versatile and easy to implement and use. They are required to satisfy two contradictory requirements. They have to be easily remembered by a user, 
+while they have to be hard to guess by impostor [1]. Users are known to choose easily guessable and/or short text passwords, which are an easy target 
+of dictionary and brute-forced attacks [2, 3]. Enforcing a strong password policy sometimes leads to an opposite effect, as a user may resort to write 
+his or her difficult-to-remember passwords on sticky notes exposing them to direct theft [4]. Text 579 International Journal of Computer Engineering 
+and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEMEpasswords can be stolen by 
+malicious software (e.g., keystroke loggers) when being entered fromkeyboards. Phishing is another serious threat to text passwords, by which, a user 
+could bepersuaded to visit a forged website and enter their passwords. To overcome the problemsassociated with text-passwords, the researchers have 
+proposed the concept of graphicalpasswords. Graphical passwords schemes are the most promising alternative to conventionalpassword authentication 
+systems. Graphical passwords employ graphical presentations such asicons, human faces or custom images to create a password. If the number of possible 
+picturesis sufficiently large, the possible password space of a graphical password scheme mayexceed that of text-based password and therefore it is 
+virtually more resistance to attackssuch as dictionary attacks. An important advantage of graphical passwords is that they are easierto remember than 
+textual passwords due to the fact that human brains can process graphicalimages easily. Human brains have the ability to remember faces of people, 
+places they visitand things they have seen for a longer duration. In this way graphical passwords provide ameans for making more user-friendly 
+passwords while increasing the level of security. Besidesthese advantages, the most common problem with graphical passwords is the shoulder 
+surfingproblem: an onlooker can steal user’s graphical password by watching in the user’s vicinity.Many researchers have attempted to solve this 
+problem by providing different techniques.Another common problem with graphical passwords is that it takes longer to input graphicalpasswords than 
+textual passwords. The login process is slow and it may frustrate theimpatient users. Since the graphical password is not widely deployed in real 
+systemsvulnerabilities of graphical passwords are still not fully understood. In modern era ofcomputerization, a big necessity to have a strong 
+authentication method is needed to secure allour application as much as possible. In this paper, considering the problems of text-password and 
+graphical passwords, we haveproposed a novel hybrid password scheme which has desirable usability and security features.The structure of our paper is 
+organized as follows. Section 2 reviews few existing graphicalauthentication methods. Section 3 explains our new proposed scheme. Section 4 analyzes 
+thescheme in different dimensions. Section 5 concludes the paper with some remarks.II. GRAPHICAL PASSWORD SCHEMES The past decade has seen a growing 
+interest in using graphical passwords as an alternative tothe traditional text-based passwords. Researchers are continually introducing new 
+ideas,concepts, and features in the field of graphical authentication. There are already manyapproaches have been proposed in present times. Graphical 
+password techniques can beclassified into two categories: recognition-based and recall-based. In recognition-basedsystems, a series of images are 
+presented to the user and a successful authenticationrequires a correct images being clicked in a right order. In recall-based systems, the useris 
+asked to reproduce something that he or she created or selected earlier during theregistration. Blonder gave the initial idea of graphical password in 
+1996. In his scheme, a user ispresented with one predetermined image on a visual display and required to select one or morepredetermined positions on 
+the displayed image in a particular order to access the restrictedresource [5]. The major drawback of this scheme is that users cannot click 
+arbitrarily on thebackground. The memorable password space was not studied by the author either. Wiedenbecket al [6] proposed PassPoint method in which 
+they extended Blonder’s idea by eliminating the 580 International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 
+0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEMEpredefined boundaries and allowing arbitrary images to be used. As a result, a 
+user can click onany place on an image (as opposed to some pre-defined areas) to create a password. A tolerancearound each chosen pixel is calculated. 
+In order to be authenticated, the user must click withinthe tolerance of their chosen pixels and also in the correct sequence. Few grid based schemes 
+areproposed which uses recall method. Jermyn et al [7] proposed a technique called “Draw ASecret” (DAS) where a user draws the password on a 2D grid. 
+The coordinates of thisdrawing on the grid are stored in order. During authentication user must redraw the picture.The user is authenticated if the 
+drawing touches the grid in the same order. The major drawbackof DAS is that diagonal lines are difficult to draw and difficulties might arise when 
+theuser chooses a drawing that contains strokes that pass too close to a grid-line. Users haveto draw their input sufficiently away from the grid lines 
+and intersections in order to enter thepassword correctly. If a user draws a password close to the grid lines or intersections, thescheme may not 
+distinguish which cell the user is choosing. Syukri et al. [8] proposed a systemwhere authentication is conducted by having the user drawing his/her 
+signature using a mouse.Dhamija and Perrig [9] proposed a graphical authentication scheme in which the user selectscertain number of images from a set 
+of random pictures during registration. Later user has toidentify the pre-selected images for authentication. The users are presented a set of pictures 
+onthe interface, some of them taken from their portfolio, and some images selectedrandomly. For successful authentication, users have to select ‘their’ 
+pictures amongst thedistracters. Passface is a technique developed by Real User Corporation [10]. The basic idea issame as Dhamija and Perrig method. 
+Here the user is asked to choose four images of humanfaces from a face database as their password. There is a common weakness in the abovegraphical 
+password schemes: they are all vulnerable to shoulder-surﬁng attacks. To address thisissue, Sobrado and Birget developed a graphical password technique 
+[11]. In their scheme, thesystem ﬁrst displays a number of 3 pass-objects (pre-selected by a user) among many otherobjects. To be authenticated, a user 
+needs to recognize pass-objects and click inside the triangleformed by the 3 pass-objects. Man, et al. [12] proposed another shoulder-surﬁng 
+resistantalgorithm in which a user selects a number of pictures as pass-objects. Each pass-object hasseveral variants and each variant is assigned a 
+unique code. During authentication, the user ischallenged with several scenes. Each scene contains several pass-objects and many decoy-objects. The 
+user has to type in a string with the unique codes corresponding to the pass-object.However, these methods force the user to memorize too many text 
+strings, and their shoulder-surﬁng resistant property is not strong either. Chiasson et al [13] proposed a cued-recallgraphical password technique. 
+Users click on one point per image for a sequence of images. Thenext image displayed is based on the previous click point so users receive implicit 
+feedbackas to whether they are on the correct path when logging in. A wrong click leads down anincorrect path, with an explicit indication of 
+authentication failure only after the final click.The visual cue does not explicitly reveal right or wrong but is evident using knowledge only 
+thelegitimate user should possess. These techniques have the potential to fill the gaps left betweentraditional authentication techniques, including 
+trade-offs between security levels, expense anderror tolerance [14]. But unfortunately in real scenario, these approaches are under-utilized as 
+theauthentications are usually complex and boring for users. 581 International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 
+6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEMEIII. OUR PROPOSAL Given that text passwords are easy to deploy 
+and to use, we believe that they will continue tobe popular. Graphical passwords are new and have some advantages over text password. Thus,we suggest 
+that a combinational scheme of both text passwords and graphical passwords shouldbe made to enhance the security by addressing common password attacks. 
+To this end, wepropose Two-Round Hybrid scheme. The proposed authentication system is divided into twophases as follows.A. Registration Phase:1. A user 
+creates his profile by entering personal details and username.2. Then he is presented with a set of 25 images as shown in Fig 1. This is the common 
+image- set for all users. Figure 1: Image-set for registration The user has to select any number of images from this set. Even he may choose a single 
+image more than once. This selection will act as the password of his first round of authentication.3. Next he will choose any picture from the stored 
+image database or from the local memory at his own choice.4. Now the user will select a point in the image and then type a text password. Password will 
+be associated with that Point of Interest (POI). Each POI is described by a square (center and some tolerance in both X and Y axis). 582 International 
+Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © 
+IAEMEB. Login Phase:1. In round-1, a user is asked for his user name and graphical password (correct selection of images in a correct sequence). The 
+order of images within the set will be random at every login time. This authentication step is shown in Fig 2.2. After supplying this, and independent 
+of whether or not it is correct, in round two authentications, the user is presented with the pre-selected image.3. Here the user first clicks on the 
+pre-defined POI. It is not possible for anyone to choose the exact point. We have to assign an acceptable tolerance to POI to minimize the false 
+positives and false negatives. For an actual point (x, y) we allow the user to click any point which has the X-coordinate in between (x-5) to (x+5) and 
+Y-coordinate in between (y-5) to (y+5). It means the allowable click-area will be a square of length10.4. After selection of correct POI user is 
+presented with a text box where he has to type the text password as shown in Fig 3.5. After the successful entries in both rounds the user is allowed 
+to access his account. Figure 2: Round-1 Authentication 583 International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 
+6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEME Figure 3: Round-2 AuthenticationIV. ANALYSIS OF THE SCHEME A. 
+Usability Features: In human computer interaction and computer science, usability usually refers to the eleganceand clarity with which the interaction 
+with a computer program or a web site is designed. Typicaldictionary definitions show ‘usability’ to be a noun to the adjective ‘usable’, which means 
+thatsomething is capable of being used, or is convenient and practicable for use. Our scheme has thefollowing usability features: • Easy to use and 
+memorize • Easy to create the password • Design and view mode is acceptable B. Password Strength: Wikipedia define the password strength as the 
+likelihood that a password can be guessed by anunauthorized person or computer. Passwords easily guessed are known as weak or vulnerable;passwords very 
+difficult or impossible to guess are considered strong. The terms weak and strongare relative and have meaning only with regard to specific password 
+systems. The necessaryquality of the password depends on how well the password system limits attempts to guess ausers password, whether by a person who 
+knows the user well, or a computer trying millions ofpossibilities [15]. In this section, we will discuss the password strength of our scheme 
+byconsidering both the password space of the text password and the graphical password parts. ௣ The password space of first round authentication will be 
+R1= ෌௜ୀଵ 25௜ ; where p is themaximum number of images used to form the password. Now consider the round-2 authentication. Let M×N be the size of the 
+image portfolio andsuppose the size of the allowable click-area is n×n for any POI. So the available numbers of POI ெ×ே ௤are ௡మ . A text password of 
+maximum length q characters has password space෌௝ୀଵ ‫ܥ‬௝ , if 584 International Journal of Computer Engineering and Technology (IJCET), ISSN 0976 – 
+6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEMEcharacters are selected uniformly at random and independently 
+from an alphabet of C characters. ெ×ே ௤Naturally the password space of second round authentication will be R2 = మ ×෌௝ୀଵ ‫ܥ‬௝ . ௡ If we combine these two 
+steps, we will achieve the overall password space of our schemewhich is P = R1 × R2 . C. Resisting Brute Force and Dictionary Attacks: Dictionary 
+attack is normally used to crack the text password. In hybrid scheme, first roundauthentication is based on graphical password and second round also 
+involves mouse input, so itwill be impractical to carry out dictionary attacks against this scheme. Effort required in brute-force is directly 
+proportional to the password space. In our scheme password space is very large.So an enormous effort is required to apply a brute force attack against 
+our scheme. The attackprograms need to automatically generate accurate click-positions to imitate human input, whichis particularly difficult for this 
+scheme. D. Mitigating Keylogger Attacks: Keylogging is a common method for stealing user text passwords. A keylogger is malicioussoftware which 
+intercepts keystrokes on an infected machine as a user types. For example,Microsoft Windows provides (un-documented) interfaces facilitating 
+interception of systemevents including keystrokes. With our hybrid scheme, a user would use the keyboard for the textpassword part, and mouse clicks 
+for the graphical parts. Thus, a naive keylogger cannot obtainthe graphical parts. More sophisticated malware can capture both user screen contents and 
+mouseclicks to recover a graphical password, with more effort. But it is not clear whether “mousetracking” spyware will be an effective tool against 
+graphical passwords. However, mouse motionalone is not enough to break graphical passwords. Such information has to be correlated withapplication 
+information, such as window position and size, as well as timing information. E. Mitigating Phishing Attacks: Phishing is another common technique for 
+stealing passwords by fooling users to enter suchinformation into a fraudulent website spooﬁng a legitimate one (e.g., a bank site). Socialengineering 
+tactics are often used (e.g., “urgent account update”, requests to verify faketransactions, etc.). In hybrid system, the image portfolio of first round 
+authentication may besame to all users. So an expert phisher can steal the password of first part easily. But in secondround authentication, it is very 
+difficult to crack even users’ text password. Our text password isassociated with a POI which is graphical part. Without the knowledge of users’ image 
+proﬁle, thephisher does not know what images to present in order to extract a POI. So obtaining its round-2password is very difficult. F. Resisting 
+Shoulder Surfing Attacks: Like text based passwords, most of the graphical passwords are vulnerable to shoulder surfing.At this point, our policy 
+provides a solid resistance against shoulder surfing attack. In first roundauthentication, the user is presented with a set of 25 images. Naturally the 
+size of each imagewill be very small and each login time the order of the images will be random. This technique isspecially deployed to make an 
+imposter confused who is trying to memorize the authenticationdetails from the backside. 585 International Journal of Computer Engineering and 
+Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEMEV. CONCLUSION Our authentication 
+scheme is a combination of text passwords and graphical passwords. Againfirst round of graphical authentication is a recognition based technique 
+whereas second round ofgraphical authentication is a recall based technique. So we have used the term ‘hybrid’ to denoteour scheme. We do believe that 
+our design will prove to be more usable and adequately securefor user authentication than existing text-based password and graphical password methods. 
+Anobvious and necessary next step is a user study, ideally both a lab study and a field studyleveraging our real-world deployment. The scheme can be 
+useful for highly secure systems.Proposed scheme will provide the following advantages: 1. Users’ current sign-in experience is partially preserved. 2. 
+A text password alone which is stolen (e.g., by phishing or any other means) does not compromise an account. 3. Random order of images in round-1 
+authentication provides a resistance to the shoulder surfing attacks. 4. Password space is very large. 5. It can be implemented in software alone, 
+increasing the potential for large-scale adoption on the Internet. Current graphical password techniques are still immature. The field is new and open 
+for futureworks.ACKNOWLEDGMENT First and foremost, we offer our gratitude to the almighty Allah whose blessings have helpedus to complete this work. We 
+would like to thank Mr. Sarosh Umar, Reader of Aligarh MuslimUniversity for his valuable advice throughout the work. We are also grateful to Mr. 
+MohsinAbbas Rizvi, Web developer in Vinove Pvt. Ltd. and Mr. Mohd Anjum, guest faculty at AMUfor their help during the implementation phase. 
+REFERENCES[1] William Stallings and Lawrie Brown. Computer Security: Principle and Practices. Pearson Education, 2008.[2] X. Suo, Y. Zhu, and G. S. 
+Owen, "Graphical passwords: A survey," 21st Annual Computer Security Applications Conference (ASCSAC 2005). Tucson, 2005.[3] S. Malempati and S. 
+Mogalla, “A Well Known Tool Based Graphical Authentication Technique”, CCSEA 2011, CS & IT 02, pp. 97–104, 2011.[4] D.Weinshall and S. Kirkpatrick, 
+"Passwords You’ll Never Forget, but Can’t Recall," in Proceedings of Conference on Human Factors in Computing Systems (CHI). Vienna, Austria: ACM, 
+2004, pp. 1399-1402.[5] G. E. Blonder, "Graphical passwords," in Lucent Technologies, Inc., Murray Hill, NJ, U. S. Patent-5559961, Ed. United States, 
+1996.[6] Susan Wiedenbeck, Jim Waters, Jean-Camille Birget, Alex Brodskiy, and Nasir Memon. Passpoints: design and longitudinal evaluation of a 
+graphical password system. International Journal of Human-Computer Studies, 63:102–127, July 2005.[7] Jermyn, I., Mayer A., Monrose, F., Reiter, M., 
+and Rubin., “The design and analysis of graphical passwords” in Proceedings of USENIX Security Symposium, August 1999. 586 International Journal of 
+Computer Engineering and Technology (IJCET), ISSN 0976 – 6367(Print),ISSN 0976 – 6375(Online) Volume 3, Issue 2, July- September (2012), © IAEME[8] A. 
+F. Syukri, E. Okamoto, and M. Mambo, "A User Identification System Using Signature Written with Mouse," in Third Australasian Conference on Information 
+Security and Privacy (ACISP): Springer-Verlag Lecture Notes in Computer Science (1438), 1998, pp. 403-441.[9] R. Dhamija, and A. Perrig. “Deja Vu: A 
+User Study Using Images for Authentication”. In 9th USENIX Security Symposium, 2000.[10] T. Valentine, "An evaluation of the Passface personal 
+authentication system," Technical Report, Goldsmiths College, University of London 1998.[11] L. Sobrado and J.-C. Birget, "Graphical passwords," The 
+Rutgers Scholar, An Electronic Bulletin for Undergraduate Research, vol. 4, 2002.[12] S. Man, D. Hong, and M. Mathews, "A shoulder-surfing resistant 
+graphical password scheme," in Proceedings of International conference on security and management. Las Vegas, 2003.[13] S. Chiasson, A. Forget, R. 
+Biddle, and P.C. van Oorschot. “Inﬂuencing Users Towards Better Passwords: Persuasive Cued Click-Points” - In Proc. of HCI’08, September 2008.[14] J. 
+Goldberg, J. Hagman, V. Sazawal, "Doodling Our Way To Better Authentication", CHI 02 extended abstracts on Human Factors in Computer Systems, 2002.[15] 
+Sabzevar A.P. and Stavrou A., "Universal Multi-Factor Authentication Using Graphical Passwords" - IEEE International Conference on Signal Image 
+Technology and Internet Based Systems, SITIS 08, pp. 625-632.Nesar Ahmad is presently working as a Professor in the Department of Computer 
+Engineering,Aligarh Muslim University, India. He has nearly twenty years of teaching experience. NesarAhmad obtained his B.Sc (Engg) degree in 
+Electronics & Communication Engineering fromBihar College of Engineering, Patna (Now NIT, Patna) in 1984 and M.Sc (InformationEngineering) degree from 
+City University, London, U.K., in 1989. He received his Ph.D degreefrom Indian Institute of Technology (IIT), Delhi, India, in 1993. Earlier he worked 
+as a SeniorScientific Officer in Microprocessor Applications Program at IIT Delhi. He was with King SaudUniversity, Riyadh during 1997-99 as an 
+Assistant Professor. Before joining AMU, he worked asan Assistant Professor in the Department of Electrical Engineering, IIT Delhi till December2004. 
+His current research interests mainly include Soft Computing, Web Intelligence and E-Learning. He has authored many papers in various International 
+Journals and Conferenceproceedings.Md. Asraful Haque was born in 1985 in West Bengal, India. He received his Master degree inComputer Science and 
+Engineering (Specialization-Software Engineering) from Aligarh MuslimUniversity. Presently he is an Assistant Professor (Ad-hoc basis) in Aligarh 
+Muslim University.He has more than three years of teaching experience. His area of interests includes Softwareengineering, Operating Systems, Data 
+Structure, Image Processing and Internet Security. He hasauthored several papers in different international journals and conferences.Babbar Imam 
+received his B.Tech degree in Computer Science and Engineering from AligarhMuslim University in 2009. He is presently pursuing his Master degree in 
+Software Engineeringfrom the same University. He has two years of teaching experience. His area of interests includesSoftware engineering, Artificial 
+Intelligence, Image Processing and Computer Security.
+
+\section{Non-plaintext Authentication Mechanisms}
+
+
+See Authentication/Mechanisms for explanation of auth mechanisms. Most installations use only plaintext mechanisms, so you can skip this section unless 
+you know you want to use them. The problem with non-plaintext auth mechanisms is that the password must be stored either in plaintext, or using a 
+mechanism-specific scheme that's incompatible with all other non-plaintext mechanisms. In addition, the mechanism-specific schemes often offer very 
+little protection. This isn't a limitation of Dovecot, it's a requirement for the algorithms to even work. For example if you're going to use CRAM-MD5 
+authentication, the password needs to be stored in either PLAIN or CRAM-MD5 scheme. If you want to allow both CRAM-MD5 and DIGEST-MD5, the password 
+must be stored in plaintext.The base64 vs. hex encoding that is mentioned above is simply the default encoding that is used. You can override it for 
+any scheme by adding a ".hex", ".b64" or ".base64" suffix.This can be especially useful with plaintext passwords to encode characters that would 
+otherwise be illegal. For example in passwd-file you couldn't use a ":" character in the password without encoding it to base64 or hex.
+
+\section{URI scheme}
+
+In the field of computer networking, a URI scheme is the top level of the uniform resource identifier (URI) naming structure. All URIs and absolute URI 
+references are formed with a scheme name, followed by a colon character (":"), and the remainder of the URI called (in the outdated RFCs 1738 and 2396, 
+but not the current STD 66/RFC 3986) the scheme-specific part. The syntax and semantics of the scheme-specific part are left largely to the 
+specifications governing individual schemes, subject to certain constraints such as reserved characters and how to "escape" them. URI schemes are 
+frequently and incorrectly referred to as "protocols", or specifically as URI protocols or URL protocols, since most were originally designed to be 
+used with a particular protocol, and often have the same name. The http scheme, for instance, is generally used for interacting with web resources 
+using HyperText Transfer Protocol. Today, URIs with that scheme are also used for other purposes, such as RDF resource identifiers and XML namespaces, 
+that are not related to the protocol. Furthermore, some URI schemes are not associated with any specific protocol (e.g. "file") and many others do not 
+use the name of a protocol as their prefix. The scheme name consists of a sequence of characters beginning with a letter and followed by any 
+combination of letters, digits, plus ("+"), period ("."), or hyphen ("-"). Although schemes are case-insensitive, the canonical form is lowercase and 
+documents that specify schemes must do so with lowercase letters. It is followed by a colon.
+
+
+\stoptext

@@ -1,0 +1,1241 @@
+-- version: 1.19
+-- file: main
+-- format: cont-en
+-- stamp: 2012.05.30 11:26
+-- escape: [===[ ... ]===]
+
+local utilitydata = { }
+
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.variables = utilitydata.job.variables or { }
+utilitydata.job.variables.checksums = utilitydata.job.variables.checksums or { }
+utilitydata.job.variables.checksums={
+ ["new"]="22AF645D1859CB5CA6DA0C484F1F37EA",
+ ["old"]="149603E6C03516362A8DA23F624DB945",
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.variables = utilitydata.job.variables or { }
+utilitydata.job.variables.collected = utilitydata.job.variables.collected or { }
+utilitydata.job.variables.collected={
+ ["randomseed"]=0.58357495282943,
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.passes = utilitydata.job.passes or { }
+utilitydata.job.passes.collected = utilitydata.job.passes.collected or { }
+utilitydata.job.passes.collected={
+ ["itemgroup"]={
+  { 4, "0" },
+  { 4, "0" },
+  { 4, "0" },
+ },
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.datasets = utilitydata.job.datasets or { }
+utilitydata.job.datasets.collected = utilitydata.job.datasets.collected or { }
+utilitydata.job.datasets.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.pagestates = utilitydata.job.pagestates or { }
+utilitydata.job.pagestates.collected = utilitydata.job.pagestates.collected or { }
+utilitydata.job.pagestates.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.structure = utilitydata.job.structure or { }
+utilitydata.job.structure.collected = utilitydata.job.structure.collected or { }
+utilitydata.job.structure.collected={
+ ["branches"]={},
+ ["name"]="main",
+ ["type"]="text",
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.specials = utilitydata.structures.specials or { }
+utilitydata.structures.specials.collected = utilitydata.structures.specials.collected or { }
+utilitydata.structures.specials.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.counters = utilitydata.structures.counters or { }
+utilitydata.structures.counters.collected = utilitydata.structures.counters.collected or { }
+utilitydata.structures.counters.collected={
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["graphic"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["intermezzo"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 0, 0, 0, 0, 4, 0, 4, 0, 0, 4, 0 },
+ },
+ ["realpage"]={
+  { 41 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["userpage"]={
+  { 41 },
+ },
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.lists = utilitydata.structures.lists or { }
+utilitydata.structures.lists.collected = utilitydata.structures.lists.collected or { }
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=3,
+  ["numberdata"]=2,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["reference"]="content",
+   ["section"]=0,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="\\headtext {content}",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=5,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=2,
+   ["realpage"]=3,
+   ["section"]=1,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="INTRODUCTION",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=3,
+   ["realpage"]=4,
+   ["section"]=2,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Problems in Text based password scheme",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=11,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=4,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Graphical password scheme",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=13,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=5,
+   ["realpage"]=7,
+   ["section"]=4,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Usability Features",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=16,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=6,
+   ["realpage"]=7,
+   ["section"]=5,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Password Strength",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=7,
+   ["section"]=6,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Resisting Brute Force and Dictionary Attacks",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=20,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=8,
+   ["section"]=7,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Mitigating Keylogger Attacks",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=9,
+   ["realpage"]=8,
+   ["section"]=8,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Mitigating Phishing Attacks",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=24,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=10,
+   ["realpage"]=8,
+   ["section"]=9,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Using CAPTCHA in Graphical Password Scheme",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=26,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=11,
+   ["realpage"]=9,
+   ["section"]=10,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="NUMERIC AND GRAPHICAL SCHEME",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=28,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=12,
+   ["realpage"]=9,
+   ["section"]=11,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Click-Draw Based Graphical Password Scheme",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=30,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=13,
+   ["realpage"]=10,
+   ["section"]=12,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Hybrid Password Scheme",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=32,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=14,
+   ["realpage"]=17,
+   ["section"]=13,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Non-plaintext Authentication Mechanisms",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=34,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=15,
+   ["realpage"]=18,
+   ["section"]=14,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="URI scheme",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=36,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=16,
+   ["realpage"]=19,
+   ["section"]=15,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="LITERATURE REVIEW",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=38,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=17,
+   ["realpage"]=19,
+   ["section"]=16,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Pure Recall Based Techniques",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=40,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=18,
+   ["realpage"]=21,
+   ["section"]=17,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Cued recall-Based Techniques",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=42,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=19,
+   ["realpage"]=23,
+   ["section"]=18,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Recognition-Based Techniques",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=44,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=20,
+   ["realpage"]=26,
+   ["section"]=19,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="GRAPHICAL ALTERNATIVES FOR USER AUTHENTICATION",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=46,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=21,
+   ["realpage"]=27,
+   ["section"]=20,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Token-based Graphical Password Authentication",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=48,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=22,
+   ["realpage"]=28,
+   ["section"]=21,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="RESEARCH OBJECTIVES AND METHODOLOGY",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=50,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=23,
+   ["realpage"]=28,
+   ["section"]=22,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Problem Statement",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=52,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=24,
+   ["realpage"]=28,
+   ["section"]=23,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Objective of Research Work",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=54,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=25,
+   ["realpage"]=28,
+   ["section"]=24,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Research Approach",
+  },
+ },
+ {
+  ["metadata"]=14,
+  ["numberdata"]=56,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=26,
+   ["realpage"]=30,
+   ["section"]=25,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Research Method used in present study",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=58,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=27,
+   ["realpage"]=31,
+   ["section"]=26,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Designing the Algorithm",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=60,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=28,
+   ["realpage"]=31,
+   ["section"]=27,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Design",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=62,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=29,
+   ["realpage"]=31,
+   ["section"]=28,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Algorithm",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=64,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=30,
+   ["realpage"]=31,
+   ["section"]=29,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Data Flow Diagrams of User Authetication",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=66,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=31,
+   ["realpage"]=32,
+   ["section"]=30,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Experimental Evaluation",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=68,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=32,
+   ["realpage"]=37,
+   ["section"]=31,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Discussion and Conclusion",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=70,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=33,
+   ["realpage"]=37,
+   ["section"]=32,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Discusion",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=72,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=34,
+   ["realpage"]=38,
+   ["section"]=33,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Conclusion",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["numberdata"]=74,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=35,
+   ["realpage"]=39,
+   ["section"]=34,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Future work",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=76,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=36,
+   ["realpage"]=40,
+   ["section"]=35,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Refrences",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=78,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=37,
+   ["realpage"]=41,
+   ["reference"]="index",
+   ["section"]=36,
+   ["tag"]="?",
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="\\headtext {index}",
+  },
+ },
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.pages = utilitydata.structures.pages or { }
+utilitydata.structures.pages.collected = utilitydata.structures.pages.collected or { }
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=7,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=8,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=9,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=10,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=11,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=12,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=13,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=14,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=15,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=16,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=17,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=18,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=19,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=20,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=21,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=22,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=23,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=24,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=25,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=26,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=27,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=28,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=29,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=30,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=31,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=32,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=33,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=34,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=35,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=36,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=37,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=38,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=39,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=40,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=41,
+  ["numberdata"]=79,
+  ["prefixdata"]=80,
+ },
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.references = utilitydata.structures.references or { }
+utilitydata.structures.references.collected = utilitydata.structures.references.collected or { }
+utilitydata.structures.references.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.references = utilitydata.structures.references or { }
+utilitydata.structures.references.referred = utilitydata.structures.references.referred or { }
+utilitydata.structures.references.referred={
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.registers = utilitydata.structures.registers or { }
+utilitydata.structures.registers.collected = utilitydata.structures.registers.collected or { }
+utilitydata.structures.registers.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.positions = utilitydata.job.positions or { }
+utilitydata.job.positions.collected = utilitydata.job.positions.collected or { }
+utilitydata.job.positions.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.objects = utilitydata.job.objects or { }
+utilitydata.job.objects.collected = utilitydata.job.objects.collected or { }
+utilitydata.job.objects.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.synonyms = utilitydata.structures.synonyms or { }
+utilitydata.structures.synonyms.collected = utilitydata.structures.synonyms.collected or { }
+utilitydata.structures.synonyms.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.structures = utilitydata.structures or { }
+utilitydata.structures.blocks = utilitydata.structures.blocks or { }
+utilitydata.structures.blocks.collected = utilitydata.structures.blocks.collected or { }
+utilitydata.structures.blocks.collected={
+}
+utilitydata = utilitydata or { }
+utilitydata.job = utilitydata.job or { }
+utilitydata.job.files = utilitydata.job.files or { }
+utilitydata.job.files.collected = utilitydata.job.files.collected or { }
+utilitydata.job.files.collected={
+}
+utilitydata.job.packed={
+ ["index"]={
+  { 0, 0 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=1,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["name"]="title",
+   ["nolist"]=true,
+  },
+  { 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=4,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="chapter",
+  },
+  { 0, 1, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=7,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="section",
+  },
+  { 0, 1, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=10,
+   ["set"]="all",
+  },
+  { 0, 1, 2, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=12,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="subsection",
+  },
+  { 0, 1, 2, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=15,
+   ["set"]="all",
+  },
+  { 0, 1, 2, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=17,
+   ["set"]="all",
+  },
+  { 0, 1, 2, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=19,
+   ["set"]="all",
+  },
+  { 0, 1, 2, 5 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=21,
+   ["set"]="all",
+  },
+  { 0, 1, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=23,
+   ["set"]="all",
+  },
+  { 0, 1, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=25,
+   ["set"]="all",
+  },
+  { 0, 1, 5 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=27,
+   ["set"]="all",
+  },
+  { 0, 1, 6 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=29,
+   ["set"]="all",
+  },
+  { 0, 1, 7 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=31,
+   ["set"]="all",
+  },
+  { 0, 1, 8 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=33,
+   ["set"]="all",
+  },
+  { 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=35,
+   ["set"]="all",
+  },
+  { 0, 2, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=37,
+   ["set"]="all",
+  },
+  { 0, 2, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=39,
+   ["set"]="all",
+  },
+  { 0, 2, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=41,
+   ["set"]="all",
+  },
+  { 0, 2, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=43,
+   ["set"]="all",
+  },
+  { 0, 2, 5 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=45,
+   ["set"]="all",
+  },
+  { 0, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=47,
+   ["set"]="all",
+  },
+  { 0, 3, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=49,
+   ["set"]="all",
+  },
+  { 0, 3, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=51,
+   ["set"]="all",
+  },
+  { 0, 3, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=53,
+   ["set"]="all",
+  },
+  { 0, 3, 3, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=55,
+   ["set"]="all",
+  },
+  { 0, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=57,
+   ["set"]="all",
+  },
+  { 0, 4, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=59,
+   ["set"]="all",
+  },
+  { 0, 4, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=61,
+   ["set"]="all",
+  },
+  { 0, 4, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=63,
+   ["set"]="all",
+  },
+  { 0, 4, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=65,
+   ["set"]="all",
+  },
+  { 0, 5 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=67,
+   ["set"]="all",
+  },
+  { 0, 5, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=69,
+   ["set"]="all",
+  },
+  { 0, 5, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=71,
+   ["set"]="all",
+  },
+  { 0, 5, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=73,
+   ["set"]="all",
+  },
+  { 0, 6 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=75,
+   ["set"]="all",
+  },
+  { 0, 7 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=77,
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["version"]=1.01,
+}
+
+return utilitydata
+

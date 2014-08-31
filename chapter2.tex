@@ -1,0 +1,246 @@
+\starttext 
+The password authentication problem in text based password authentication scheme arises largely from limitations of humans’ long-term memory 
+(LTM). ). Once a password has been chosen and learned the user must be able to recall it to log in. If a password is not used frequently it will be 
+even more susceptible to forgetting. Graphical password schemes have been proposed as a possible alternative to text-based schemes, motivated 
+particularly by the fact that humans can remember pictures better than text. Initially, Blonder (Greg, 1996) give the concept of Graphical User 
+Authentication (GUA), one image would appear on the screen whereupon the user would click on a few chosen regions of the image. If the user clicked in 
+the correct regions then the user would be authenticated. Most of articles from 1994 till 2009 describe that Graphical Authentication Techniques are 
+categorized into three groups:
+
+\section{Pure Recall Based Techniques}
+
+Users reproduce their passwords, without having the chance to use the reminder marks of system. Although easy and convenient, it appears that users do 
+not quite remember their passwords. Christopher Varenhorst (1991)[9] proposed a graphical authentication algorithm called passdoodle algorithm. A 
+Passdoddle Graphical Authentication algorithm which used the idea of hand written designs or words, drawn with a pen onto a sensitive touchable screen 
+was proposed in 2004 by Goldberg and his college. They confirmed that users were able to remember complete doodle images as they would with textual 
+passwords.(Christopher, 2004) Weaknesses: According to (Christopher, 2004), people could recall doodle images as accurately as they would at 
+alphanumeric passwords. However, such people would not be able to recall the order in which they drew a doodle than the resulting image. On the other 
+hand, users were found to be interest by the doodles drawn by other users, and often entered other users’ login details simply to discover a variance 
+of the set of doodles from their own (Karen, 2008).
+
+Jermyn Ian et al.(1991)[10] proposed draw secret algorithm. This method consisted of an interface that had a rectangular grid of size G *G, which 
+allowed the user to draw a simple picture on a 2D grid. Each cell in this grid is earmarked by discrete rectangular coordinates (x,y). The stroke 
+should be a sequence of cells which does not contain a pen up event. Hence the password is defined as some strokes, separated by the pen up event. At 
+the time of authentication, the user needs to re-draw the picture by creating the stroke in exactly the same order as in the registration phase. If the 
+drawing hits the exact grids and in the same order, the user is authenticated. Weaknesses: Goldberg in his 2002 survey concluded that the majority of 
+users could not remember their stroke order. Conversely, the user can recall text passwords faster than they would with DAS Passwords. Yet another 
+weakness is that users tend to select extremely weak Graphical Authentications which are susceptible to graphical dictionary attack (Dunphy and Yan, 
+2007). Grid selection algorithm increases the DAS password space proposed by Juaie Thorpe, P.C. Van Oorschot.(2004). This research was conducted on the 
+complexity of the DAS technique based on password length and stroke count by Thorpe and Orschot. Their study showed that the item which has the 
+greatest effect on the DAS password space is the number of strokes. This means that for a fixed password length, if a few strokes are selected then the 
+password space will significantly decrease. To enhance security, Thorpe and Orschot created a “Grid Selection” technique. The selection grid has a 
+large rectangular region to zoom in on, from the grid which the user selects their key for their password. This definitely increases the DAS password 
+space (Muhammad Daniel et al. 2008). Weaknesses: Whilst this method significantly increases the DAS password space, the deficiencies in DAS have not 
+been resolved (Muhammad Daniel et al. 2008).
+
+The QDAS method was created by Di Lin, et al.(2007) [11] as a boost to the DAS method, by encoding each stroke. The raw encoding consists of its 
+starting cell and the order of qualitative direction change in the stroke vis-a-vie the grid. A directional change is when the pen passes over a cell 
+boundary to the direction of the pass in the previous cell boundary. Research has shown that the image which has a hot spot is pivotal as a background 
+image (Di et al. 2007). Albeit this model applies dynamic grid transformation to mask the process of creating the password, this method could be safer 
+than the original DAS in the fight against shoulder surfing attack and further it has greater entropy than the previous DAS.
+
+In 1998, Syukri et al. proposed a system where authentication is kicked in when the users draw their signatures utilizing the mouse. This technique has 
+a two step process, registration and verification. During the registration stage, the user will be required to draw his signature with the mouse, 
+whereupon the system will extract the signature area and either enlarge or scale-down the signatures, rotating the same if necessary (Alternatively 
+known as normalizing). The information will later be stored in the database. The verification stage initially receives the user input, where upon the 
+normalization takes place, and then extracts the parameters of the signature. By using a dynamic updateable database and the geometric average means, 
+verification will be performed (Ali Mohamed, 2008). Weaknesses: As not everybody is comfortable with using the mouse as a writing device, the signature 
+is so hard to draw, possibly the use of a pen-like input device would resolve this problem. However such devices are not widely used and the addition 
+of new hardware to the current system can be expensive (Ali Mohamed, 2008). In this study, researchers concluded that such a technique is more 
+pertinent to small devices. 
+
+\section{Cued recall-Based Techniques}
+
+Users reproduce their passwords, without having the chance to use the reminder marks of system. Although easy and convenient, it appears that users do 
+not quite remember their passwords.
+
+Greg E. Blonder, in 1966 created a method wherein a pre-determined image is presented to the user on a visual display so that the user should be able 
+point to one or more predetermined positions on the image (tap regions) in a predetermined order as a way of pointing out his or her authorization to 
+access the resource. Blonder maintained that the method was secure according to the millions of different regions[12]. Weaknesses: The number of 
+predefined click regions was relatively small in this algorithm as such the password had to be long for it to be secure. Furthermore, the use of the 
+Blonder algorithm necessitates that some special shape similar to a cartoon or artificial image is used in contrast to real pictures (Susan et al. 
+2005).
+
+Susan Wiedenbeck, et al.(2005)[13] created the PassPoint algorithm in order to cover the image limitations of the Blonder Algorithm. The picture could 
+be any natural picture or painting but at the same time had to be rich enough in order for it to have many possible click points. On the other hand the 
+existence of the image has no role other than helping the user to remember the click point. This algorithm has another flexibility which makes it 
+possible for there to be no need for artificial pictures which have pre selected regions to be clicked like The Blonder algorithm. During the 
+registration phase the user chooses several points on the picture in a certain sequence. To log in, the user only needs to click close to the chosen 
+click points, and inside some adjustable tolerable distance, say within 0.25 cm from the actual click point (Susan et al. 2005). The Passpoint system 
+has enough features for creating a high entropy algorithm. Since any pixel in the image is a candidate for a click point thus there are hundreds of 
+possible memorable points in the challenge image (Ahmet et al. 2007). Weaknesses: The login time, in this method, is longer than in the alphanumeric 
+method. Also the user has more difficulty in learning and memorizing in their password. So, users have to go to several trial session for completing 
+the process (Susan et al. 2005).
+
+Paul Duaphi(2007)[15,16] created Background DAS Algorithm (BDAS), this method added a background image to the original DAS, such that both the 
+background image and the drawing grid is the key to cued recall (Paul et al. 2007). The user begins by trying to have a secret in mind which is made up 
+of three points from different categories. Firstly the user starts to draw using the point from a background image. Then the next point of user is that 
+the user’s choice of the secret is affected by various characteristics of the image. The last alternative for the user is a mix of the two previous 
+methods. Weaknesses: Research on BDAS showed that memory decaying over a week is one of the major obstacles in this algorithm. Users had no issue in 
+recreating it in the five-minute test. However, a week later they could not produce the secret password as well as they had done the previous week. 
+Further, shoulder-surfing and interference between multiple passwords are concerns for BDAS (Paul et al. 2007).
+Passmap algorithm (Roman V. Vamponski,2006) [14] shows a sample of a PassMap password for a passenger who wants to take a trip to Europe as follows: 
+One day a tour in Paris around the Eiffel then a tour in London around Big Ben. After these two tours, the third tour will be in Moscow. The passenger 
+must be able to visit all of them in a map. Referring to the Figure below, it will be easy to memorize the trip in a map (Roman, 2007).	 Weaknesses: 
+The PassMap technology is not very susceptible to "shoulder surfing", but it is susceptible to Brute Force attacks while those mechanisms are great in 
+terms of how memorable they are (Roman,2007).
+
+Passlogix Incorporation(Passlogic Inc. Co.,2002) is a commercial security company located in New York City USA. Their scheme, Passlogix v-Go, utilizes 
+a technique known as “Repeating a sequence of actions” meaning creating a password in a chronological sequence. Users select their background images 
+based on the environment, for example in the kitchen, bathroom, bedroom or others. User can click on a series of items in the image as password. For 
+example in the kitchen environment a user can: prepare a meal by selecting a fast food from the refrigerator and put on the hot plate, select some 
+vegetables and wash them, then put them on the launch desk (Muhammad Daniel et al. 2008). In case another environment such as the cocktail lounge is 
+used, this will allow users to select their favorite vodka, brandy or whiskey and mix it with other cocktails. This type of authentication is easy to 
+remember and fun to use (Muhammad Daniel et al. 2008). Weaknesses: Inherently there exist disadvantages such as the size of password space being small. 
+After all, the places that one can take vegetables or food from and put into are limited, resulting in the passwords being guessable or predictable 
+(Muhammad Daniel et al. 2008).
+
+VisKey(SFR Company,2003) is a one of the recall based authentication schemes commercialized by SFR Company in Germany which was created specifically 
+for mobile devices such as PDAs. To form a password, all users need to do is to tap their spots in sequence. Weaknesses: Input tolerance is the major 
+drawback of this method. This algorithm permits all input within a certain tolerance area around it, since it is difficult to point to the exact spots 
+on the picture. The size of this area can be pre-defined by users. A certain degree of precaution, related to the input precision, needs to be 
+exercised, as there is a straight forward correlation between the security and the usability of the password. Practically, the setting of parameters 
+with a four spot VisKey theoretically offers almost 1 billion possibilities to define a password. However, such is not large enough to avoid the 
+off-line attacks by a high-speed computer. A minimum of seven defined spots are needed in order to overcome the brute force attacks (Muhammad Daniel et 
+al. 2008).
+
+In 2006, this scheme being created as an improvement of the DAS algorithm, keeping the advantages of the DAS whilst adding some extra security 
+features. Pass- Go is a grid-based scheme which requires a user to select intersections, instead of cells, thus the new system refers to a matrix of 
+intersections, rather than cells. Pass-Go Algorithm Changing the format of typing from cells to intersections grants the user more free choices. The 
+other difference between these two algorithms is that the size of the grid in the enhanced method changes to 9*9. Weaknesses: The intersections in this 
+algorithm do not have boundaries around them, because of this users face error tolerance mechanism. Therefore sensitive areas need to be defined to 
+address this problem.
+
+\section{Recognition-Based Techniques}
+
+
+
+The fundamental of these techniques is choosing images, icons or symbols from a large collection by the users. During the registration phase, the user 
+has to recognize and identify his password image among the bank of decoy images. Research shows that around after one or two months (Saranga and 
+Dugald, 2008).
+
+Passface Algorithm(Sacha Brostoff , M. Angela Sasse, 2000)[17] was developed by the idea to choose a face of humans as a password. Firstly, a trial 
+session starts with the user in order to have an adventure for the real login process. During the registration phase the user chooses whether their 
+image password should be a male or female picture, then chooses four faces from decoy images as the future password. During the login phase, a grid 
+which contains nine pictures, is shown to the user. Only one of the user’s passwords among four is shown to user in this grid, and the other eight 
+pictures are decoys which are selected from the bank of pictures. Because the password of user contains four faces so the grid repeats continually for 
+four times and each repetition contains one of the password pictures. If one of the passwords has been shown in one grid, it will not be shown in the 
+next grid. On the other hand the password faces are randomly placed in grids which help to create a more secure environment for the user against 
+shoulder-surfing and packet sniffing attacks (Sacha and Angela, 2008). The user tries to identify his four passwords among the other pictures twice in 
+a row. According to research, (Ali Mohamed, 2008) this is one of the algorithms which covers most of the usability features like ease of use, and 
+straightforward creation and recognition.  Weaknesses: This algorithm like the others suffers from some weaknesses. Firstly, when the password is 
+selected by the mouse, it is simple for the attacker to observe the password. The other drawback of this algorithm is the long login time and long 
+process through registration phase which causes this algorithm to be slower than textual password authentication
+ (Furkan, 2006).
+
+Deja vu Algorithm (Rachna Dhamija, Adrian Perrig, 2000)[18,19] starts by allowing users to select a specific number of pictures from a large image 
+portfolio. The pictures are created by random art which is one of hash visualization algorithms. One initial seed is given for starters and then one 
+random mathematical formula is generated defining the color value for each pixel in the image. The output will be one random abstract image. The 
+benefit of this method is that as the image depends completely on its initial seed, so there is no need for saving the picture pixel by pixel and only 
+the seeds need to be stored in the trust server. During authentication phase, the user should pass through a challenging set where his portfolio mixes 
+with some decoy images; the user will be authenticated if he is able to identify his password among the entire portfolio. This method causes the 
+algorithm to be less vulnerable to description attack. Conversely, the number of pictures in the portfolio and the number of random images could very 
+well alter the security of system. Although research has shown that rate of those who use textual passwords, there are several drawbacks with this 
+method. Weaknesses: Research on Déjà vu algorithms has shown that it has three soft spots. Firstly, creating a textual password requires 25 seconds but 
+with this method a user needs about 60 seconds to create the password. Secondly, the process of selecting pictures from the database can be tedious and 
+time consuming for the user. Finally, the password seeds for each user can just be saved in the plain text format (Rachna, 2000). Leonardo Sobrado , 
+J-Canille Birget ( 2002 ) [20] proposed the triangle algorithm based on several schemes to resist the Shoulder surfing attack. The first scheme named 
+triangle, randomly places a set of N objects (a few hundred or a few thousand) on the screen. Additionally, there is a subset of K pass objects 
+previously chosen and memorized by the user. The system will select the placement of N objects randomly in the log-in phase The system initially 
+chooses a patch randomly covering half the screen, and then randomly again places the K password objects in that patch. In the log-in phase, the user 
+must be able to find the location of three pass-objects and then click inside the invisible triangle that is possible to create those three objects. 
+But, for each login this process will be repeated using a different group of n objects. So, it is possible to say that there is a very low probability 
+of randomly clicking in the correct area (Leonardo et al. 2002). Weaknesses: The log-in phase must use a minimum of 1000 images in order to resist 
+shoulder surfing. As a result the log-in will be very crowded and the password will be indistinguishable (Xiaoyuan, 2005).
+
+The moveable frame algorithm proposed by Leonardo Sobrado , J-Canille Birget in 2002[20] had a similar idea to that of triangle method. However in its 
+case the user had to select three objects from K objects in the login phase. Only 3 pass objects are displayed at any given time and only one of them 
+is placed in a movable frame. The user must move the frame until the three objects line up one after the other. These operations minimize the random 
+movements involved in finding the password (Leonardo et al. 2002). Weaknesses: Just like in the triangle algorithm, there are many objects involved in 
+this algorithm which can lead to the user being unsatisfied and in most cases will confuse users (Leonardo et al. 2002).
+
+Picture Password Algorithm (Wayne Jansen et al, 2003) [21] was designed especially for handheld devices like Personal Digital Assistant (PDA). During 
+enrollment, the user selecting a theme identifying the thumbnail photos to be applied and then registers a sequence of thumbnail images that are used 
+as a future password. If the device is powered on, then the user must input the true sequence of images but after successful log-in the user can change 
+the password. In this algorithm the password space will be small because the number of photos is limited to 30. In order to solve this problem, the 
+designer added a second step to the algorithm. This means the user can select two thumbnails together to compose the new alphabet element by using a 
+shift key to select uppercase or special characters. Weaknesses: The memorability will be more complex when the second part which solves the password 
+space’s problem is added to the algorithm (Wayne et al. 2003).
+
+The Story Algorithm (Darren Davies, et al. 2004) [23] that was proposed to categorized the available pictures into nine categories namely animals, 
+cars, women, foods, children, men, objects, natures and sports. This algorithm was proposed by Carnegie Mellon University to be used for different 
+purposes. In this method the user selects the password from the mixed pictures in the nine categories in order to make a story (Darren et al. 2004). 
+Weaknesses: Research showed that the story scheme was difficult to commit to memory in comparison to pass face authentication.
+
+The moveable frame algorithm proposed by Leonardo Sobrado , J-Canille Birget in 2002[20] had a similar idea to that of triangle method. However in its 
+case the user had to select three objects from K objects in the login phase. Only 3 pass objects are displayed at any given time and only one of them 
+is placed in a movable frame. The user must move the frame until the three objects line up one after the other. These operations minimize the random 
+movements involved in finding the password (Leonardo et al. 2002). Weaknesses: Just like in the triangle algorithm, there are many objects involved in 
+this algorithm which can lead to the user being unsatisfied and in most cases will confuse users (Leonardo et al. 2002).
+
+Picture Password Algorithm (Wayne Jansen et al, 2003) [21] was designed especially for handheld devices like Personal Digital Assistant (PDA). During 
+enrollment, the user selecting a theme identifying the thumbnail photos to be applied and then registers a sequence of thumbnail images that are used 
+as a future password. If the device is powered on, then the user must input the true sequence of images but after successful log-in the user can change 
+the password. In this algorithm the password space will be small because the number of photos is limited to 30. In order to solve this problem, the 
+designer added a second step to the algorithm. This means the user can select two thumbnails together to compose the new alphabet element by using a 
+shift key to select uppercase or special characters. Weaknesses: The memorability will be more complex when the second part which solves the password 
+space’s problem is added to the algorithm (Wayne et al. 2003).
+
+The Story Algorithm (Darren Davies, et al. 2004) [23] that was proposed to categorized the available pictures into nine categories namely animals, 
+cars, women, foods, children, men, objects, natures and sports. This algorithm was proposed by Carnegie Mellon University to be used for different 
+purposes. In this method the user selects the password from the mixed pictures in the nine categories in order to make a story (Darren et al. 2004). 
+Weaknesses: Research showed that the story scheme was difficult to commit to memory in comparison to pass face authentication.
+
+
+In order to offer resistance against shoulder surfing, in 2003 another WIW algorithm was proposed (Shushuang Man, et al. 2003) [22], which uses a 
+unique code for each picture. The user selects some picture as a password. This picture must be found in the log-in phase before the user can type the 
+related unique code in a text box. The argument is that it is very hard to dismantle this kind of password even if the whole authentication process is 
+recorded on video as there is no mouse click to give away the pass-object information. Weaknesses: One of the main vulnerabilities of this algorithm is 
+memorizing the alphanumeric code for each password by the user.
+
+\section{GRAPHICAL ALTERNATIVES FOR USER AUTHENTICATION}
+
+ Authenticating users by means of passwords is still the dominant form of authentication 
+despite its recognised weaknesses. To solve this, authenticating users with images or pictures (i.e. graphical passwords) is proposed as one possible 
+alternative as it is claimed that pictures are easy to remember, easy to use and has considerable security. Reviewing literature from the last twenty 
+years found that few graphical password schemes have successfully been applied as the primary user authentication mechanism, with many studies 
+reporting that their proposed scheme was better than their predecessors and they normally compared their scheme with the traditional password-based. In 
+addition, opportunities for further research in areas such as image selection, image storage and retrieval, memorability (i.e. the user’s ability to 
+remember passwords), predictability, applicability to multiple platforms, as well as users’ familiarity are still widely possible. Motivated by the 
+above findings and hoping to reduce the aforementioned issues, this thesis reports upon a series of graphical password studies by comparing existing 
+methods, developing a novel alternative scheme, and introducing guidance for users before they start selecting their password. Specifically, two 
+studies comparing graphical password methods were conducted with the specific aims to evaluate users’ familiarity and perception towards graphical 
+methods and to examine the performance of graphical methods in the web environment. To investigate the feasibility of combining two graphical methods, 
+a novel graphical method known as EGAS (Enhanced Graphical Authentication System) was developed and tested in terms of its ease of use, ideal secret 
+combination, ideal login strategies, effect of using smaller tolerances (i.e. areas where the click is still accepted) as well as users’ familiarity. 
+In addition, graphical password guidelines (GPG) were introduced and deployed within the EGAS prototype, in order to evaluate their potential to assist 
+users in creating appropriate password choices.
+ From these studies, the thesis provides an alternative classification for graphical password methods by looking at the users’ tasks when 
+authenticating into the system; namely click-based, choice-based, draw-based and hybrid. Findings from comparative studies revealed that although a 
+number of participants stated that they were aware of the existence of graphical passwords, they actually had little understanding of the methods 
+involved. Moreover, the methods of selecting a series of images (i.e. choice-based) and clicking on the image (i.e. click-based) are actually possible 
+to be used for web-based authentication due to both of them reporting complementary results. With respect to EGAS, the studies have shown that 
+combining two graphical methods is possible and does not introduce negative effects upon the resulting usability. User familiarity with the EGAS 
+software prototype was also improved as they used the software for periods of time, with improvement shown in login time, accuracy and login failures.
+ With the above findings, the research proposes that users’ familiarity is one of the key elements in deploying any graphical method, and appropriate 
+HCI guidelines should be considered and employed during development of the scheme. Additionally, employing the guidelines within the graphical method 
+and not treating them as a separate entity in user authentication is also recommended. Other than that, elements such as reducing predictability, 
+testing with multiple usage scenarios and platforms, as well as flexibility with respect to tolerance should be the focus for future research.
+
+
+\section{Token-based Graphical Password Authentication}
+
+
+
+Given that phishing is an ever increasing problem, a better authentication system than the current alphanumeric system is needed. Because of the large 
+number of current authentication systems that use alphanumeric passwords, a new solution should be compatible with these systems. We propose a system 
+that uses a graphical password deployed from a Trojan and virus resistant embedded device as a possible solution. The graphical password would require 
+the user to choose a family photo sized to 441x331 pixels. Using this image, a novel, image hash provides an input into a cryptosystem on the embedded 
+device that subsequently returns an encryption key or text password. The graphical password requires the user to click five to eight points on the 
+image. From these click-points, the embedded device stretches the graphical password input to a 32- character, random, unique alphanumeric password or 
+a 256-bit AES key. Each embedded device and image are unique components in the graphical password system. Additionally, one graphical password can 
+generate many 32-character unique, alphanumeric passwords using its embedded device which eliminates the need for the user to memorize many passwords.
+
+
+
+\stoptext

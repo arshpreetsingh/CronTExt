@@ -1,0 +1,477 @@
+(main.tex
+
+ConTeXt  ver: 2012.05.30 11:26 MKIV  fmt: 2014.8.11  int: english/english
+
+system          > cont-new.mkiv loaded
+(/usr/share/texmf/tex/context/base/cont-new.mkiv
+system          > beware: some patches loaded from cont-new.mkiv
+)
+system          > main.top loaded
+
+system          > options > start used options
+
+used options    > % runtime options files (command line driven)
+used options    > \unprotect
+used options    > % feedback and basic job control
+used options    > % handy for special styles
+used options    > \startluacode
+used options    > document = document or { }
+used options    > document.arguments={
+used options    > }
+used options    > document.files={
+used options    >  "main",
+used options    > }
+used options    > \stopluacode
+used options    > % process info
+used options    > \setupsystem[inputfile=main]
+used options    > \setupsystem[\c!n=2,\c!m=3]
+used options    > % modes
+used options    > % options (not that important)
+used options    > \startsetups *runtime:options
+used options    > \stopsetups
+used options    > % styles and modules
+used options    > \startsetups *runtime:modules
+used options    > \stopsetups
+used options    > % done
+used options    > \protect \endinput
+
+system          > options > stop used options
+
+(main.top)
+fonts           > latin modern fonts are not preloaded
+languages       > language en is active
+{/usr/share/texmf/fonts/map/pdftex/context/mkiv-base.map}
+fonts           > preloading latin modern fonts (second stage)
+fonts           > typescripts > unknown: library 'loc'
+{/usr/share/texmf/fonts/map/dvips/lm/lm-math.map}{/usr/share/texmf/fonts/map/dvips/lm/lm-rm.map}
+fonts           > virtual math > unable to resolve name mapsfromchar
+fonts           > fallback modern rm 12pt is loaded
+structure       > sectioning > title @ level 2 : 0.0 -> \headtext {content}
+backend         > xmp > using file '/usr/share/texmf/tex/context/base/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+pages           > flushing realpage 2, userpage 2
+structure       > sectioning > chapter @ level 2 : 0.1 -> INTRODUCTION
+(introduction.tex
+structure       > sectioning > section @ level 3 : 0.1.1 -> Problems in Text based password scheme
+pages           > flushing realpage 3, userpage 3
+structure       > sectioning > section @ level 3 : 0.1.2 -> Graphical password scheme
+pages           > flushing realpage 4, userpage 4
+pages           > flushing realpage 5, userpage 5
+structure       > sectioning > subsection @ level 4 : 0.1.2.1 -> Usability Features
+pages           > flushing realpage 6, userpage 6
+structure       > sectioning > subsection @ level 4 : 0.1.2.2 -> Password Strength
+structure       > sectioning > subsection @ level 4 : 0.1.2.3 -> Resisting Brute Force and Dictionary Attacks
+structure       > sectioning > subsection @ level 4 : 0.1.2.4 -> Mitigating Keylogger Attacks
+pages           > flushing realpage 7, userpage 7
+structure       > sectioning > subsection @ level 4 : 0.1.2.5 -> Mitigating Phishing Attacks
+structure       > sectioning > section @ level 3 : 0.1.3 -> Using CAPTCHA in Graphical Password Scheme
+pages           > flushing realpage 8, userpage 8
+structure       > sectioning > section @ level 3 : 0.1.4 -> NUMERIC AND GRAPHICAL SCHEME
+structure       > sectioning > section @ level 3 : 0.1.5 -> Click-Draw Based Graphical Password Scheme
+structure       > sectioning > section @ level 3 : 0.1.6 -> Hybrid Password Scheme
+pages           > flushing realpage 9, userpage 9
+pages           > flushing realpage 10, userpage 10
+pages           > flushing realpage 11, userpage 11
+pages           > flushing realpage 12, userpage 12
+pages           > flushing realpage 13, userpage 13
+pages           > flushing realpage 14, userpage 14
+pages           > flushing realpage 15, userpage 15
+pages           > flushing realpage 16, userpage 16
+structure       > sectioning > section @ level 3 : 0.1.7 -> Non-plaintext Authentication Mechanisms
+pages           > flushing realpage 17, userpage 17
+structure       > sectioning > section @ level 3 : 0.1.8 -> URI scheme
+)
+pages           > flushing realpage 18, userpage 18
+structure       > sectioning > chapter @ level 2 : 0.2 -> LITERATURE REVIEW
+(chapter2.tex
+structure       > sectioning > section @ level 3 : 0.2.1 -> Pure Recall Based Techniques
+pages           > flushing realpage 19, userpage 19
+structure       > sectioning > section @ level 3 : 0.2.2 -> Cued recall-Based Techniques
+pages           > flushing realpage 20, userpage 20
+pages           > flushing realpage 21, userpage 21
+pages           > flushing realpage 22, userpage 22
+structure       > sectioning > section @ level 3 : 0.2.3 -> Recognition-Based Techniques
+pages           > flushing realpage 23, userpage 23
+pages           > flushing realpage 24, userpage 24
+pages           > flushing realpage 25, userpage 25
+structure       > sectioning > section @ level 3 : 0.2.4 -> GRAPHICAL ALTERNATIVES FOR USER AUTHENTICATION
+pages           > flushing realpage 26, userpage 26
+structure       > sectioning > section @ level 3 : 0.2.5 -> Token-based Graphical Password Authentication
+)
+pages           > flushing realpage 27, userpage 27
+structure       > sectioning > chapter @ level 2 : 0.3 -> RESEARCH OBJECTIVES AND METHODOLOGY
+(chapter3.tex
+structure       > sectioning > section @ level 3 : 0.3.1 -> Problem Statement
+structure       > sectioning > section @ level 3 : 0.3.2 -> Objective of Research Work
+structure       > sectioning > section @ level 3 : 0.3.3 -> Research Approach
+pages           > flushing realpage 28, userpage 28
+pages           > flushing realpage 29, userpage 29
+structure       > sectioning > subsection @ level 4 : 0.3.3.1 -> Research Method used in present study
+)
+pages           > flushing realpage 30, userpage 30
+structure       > sectioning > chapter @ level 2 : 0.4 -> Designing the Algorithm
+(chapter4.tex
+structure       > sectioning > section @ level 3 : 0.4.1 -> Design
+structure       > sectioning > section @ level 3 : 0.4.2 -> Algorithm
+structure       > sectioning > section @ level 3 : 0.4.3 -> Data Flow Diagrams of User Authetication
+structure       > sectioning > section @ level 3 : 0.4.4 -> Experimental Evaluation
+ <1.png>
+pages           > flushing realpage 31, userpage 31
+
+Overfull \hbox (8.5328pt too wide) in paragraph at lines 53--55
+[][]\3>modern-designsize-12pt-rm-tf-0--0 con.Con-nec-tion-String = Con-fig-u-ra-tion-Man-ager.Con-nec-tion-Strings["con-nec-tion"].Con-
+
+\hbox(9.0+3.0)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 c
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.\3>modern-designsize-12pt-rm-tf-0--0 n
+.etc.
+
+
+Overfull \hbox (27.62566pt too wide) in paragraph at lines 76--77
+[][]\3>modern-designsize-12pt-rm-tf-0--0 Reg-is-ter-Star-tup-Script("msg", "<script>alert(’You Only Clicked " + (Con-vert.ToInt32(La-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 R
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.\3>modern-designsize-12pt-rm-tf-0--0 g
+.etc.
+
+
+Overfull \hbox (19.65096pt too wide) in paragraph at lines 81--86
+\3>modern-designsize-12pt-rm-tf-0--0 + (string)Ses-sion["id"] + "’", con); cmd1.Ex-e-cuteNon-Query(); Re-sponse.Redi-rect("Cued-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 +
+.\glue 3.912 plus 1.956 minus 1.304
+.\3>modern-designsize-12pt-rm-tf-0--0 (
+.\3>modern-designsize-12pt-rm-tf-0--0 s
+.\3>modern-designsize-12pt-rm-tf-0--0 t
+.etc.
+
+ <2.png> <3.png>
+pages           > flushing realpage 32, userpage 32
+
+Overfull \hbox (3.6097pt too wide) in paragraph at lines 96--97
+[][]\3>modern-designsize-12pt-rm-tf-0--0 Reg-is-ter-Star-tup-Script("msg", "<script>alert(’You Click Only 5 Points.’)</script>"); 
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 R
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.\3>modern-designsize-12pt-rm-tf-0--0 g
+.etc.
+
+
+Overfull \hbox (2.61943pt too wide) in paragraph at lines 109--111
+[][]\3>modern-designsize-12pt-rm-tf-0--0 Sql-Con-nec-tion con = new Sql-Con-nec-tion(); pro-tected void Page_Load(ob-ject sender,
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 S
+.\3>modern-designsize-12pt-rm-tf-0--0 q
+.\3>modern-designsize-12pt-rm-tf-0--0 l
+.etc.
+
+
+Overfull \hbox (8.5328pt too wide) in paragraph at lines 113--115
+[][]\3>modern-designsize-12pt-rm-tf-0--0 con.Con-nec-tion-String = Con-fig-u-ra-tion-Man-ager.Con-nec-tion-Strings["con-nec-tion"].Con-
+
+\hbox(9.0+3.0)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 c
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.\3>modern-designsize-12pt-rm-tf-0--0 n
+.etc.
+
+
+Overfull \hbox (48.77548pt too wide) in paragraph at lines 140--142
+[][]\3>modern-designsize-12pt-rm-tf-0--0 La-bel1.Text = Con-vert.ToString(Con-vert.ToInt32(La-bel1.Text) + 1); if (Con-vert.ToInt32(La-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 L
+.\3>modern-designsize-12pt-rm-tf-0--0 a
+.\discretionary
+..\3>modern-designsize-12pt-rm-tf-0--0 -
+.etc.
+
+ <4.png>
+pages           > flushing realpage 33, userpage 33
+pages           > flushing realpage 34, userpage 34
+
+Overfull \hbox (1.98572pt too wide) in paragraph at lines 454--455
+[][]\3>modern-designsize-12pt-rm-tf-0--0 Reg-is-ter-Star-tup-Script("msg", "<script>alert(’5 Click-ing Points Only...’)</script>"); 
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 R
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.\3>modern-designsize-12pt-rm-tf-0--0 g
+.etc.
+
+
+Overfull \hbox (8.5328pt too wide) in paragraph at lines 469--470
+[][]\3>modern-designsize-12pt-rm-tf-0--0 con.Con-nec-tion-String = Con-fig-u-ra-tion-Man-ager.Con-nec-tion-Strings["con-nec-tion"].Con-
+
+\hbox(9.0+3.0)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 c
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.\3>modern-designsize-12pt-rm-tf-0--0 n
+.etc.
+
+
+Overfull \hbox (3.42566pt too wide) in paragraph at lines 484--486
+[][]\3>modern-designsize-12pt-rm-tf-0--0 bmp.Se-tRes-o-lu-tion(Orig-i-nal-Im-age.Hor-i-zon-tal-Res-o-lu-tion, Orig-i-nal-Im-age.Ver-ti-cal-Res-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 b
+.\3>modern-designsize-12pt-rm-tf-0--0 m
+.\3>modern-designsize-12pt-rm-tf-0--0 p
+.etc.
+
+
+Overfull \hbox (17.95792pt too wide) in paragraph at lines 487--494
+\3>modern-designsize-12pt-rm-tf-0--0 Mode.High-Qual-ity; Graphic.Draw-Im-age(Orig-i-nal-Im-age, new SD.Rec-tan-gle(0, 0, Width,
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 M
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.\kern 0.32399
+.\3>modern-designsize-12pt-rm-tf-0--0 d
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.etc.
+
+
+Overfull \hbox (4.29504pt too wide) in paragraph at lines 487--494
+\3>modern-designsize-12pt-rm-tf-0--0 Mem-o-ryS-tream(); bmp.Save(ms, Orig-i-nal-Im-age.Raw-For-mat); re-turn ms.Get-Buffer(); 
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 M
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.\3>modern-designsize-12pt-rm-tf-0--0 m
+.\discretionary
+..\3>modern-designsize-12pt-rm-tf-0--0 -
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.etc.
+
+
+Overfull \hbox (46.07425pt too wide) in paragraph at lines 506--514
+\3>modern-designsize-12pt-rm-tf-0--0 vert.ToInt32(H.Value); int x = Con-vert.ToInt32(X.Value); int y = Con-vert.ToInt32(Y.Value);
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 v
+.\kern -0.32399
+.\3>modern-designsize-12pt-rm-tf-0--0 e
+.\3>modern-designsize-12pt-rm-tf-0--0 r
+.\3>modern-designsize-12pt-rm-tf-0--0 t
+.etc.
+
+ <5.png>
+pages           > flushing realpage 35, userpage 35
+
+Overfull \hbox (36.03944pt too wide) in paragraph at lines 526--532
+[][]\3>modern-designsize-12pt-rm-tf-0--0 con.Open(); Sql-Com-mand cmd = new Sql-Com-mand("up-date regis set cropim-age=@cropim-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 c
+.\3>modern-designsize-12pt-rm-tf-0--0 o
+.\3>modern-designsize-12pt-rm-tf-0--0 n
+.etc.
+
+
+Overfull \hbox (15.06032pt too wide) in paragraph at lines 526--532
+\3>modern-designsize-12pt-rm-tf-0--0 cmd.Pa-ra-me-ters.Ad-dWith-Value("@cropim-age", CropIm-age); cmd.Ex-e-cuteNon-Query();
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 c
+.\3>modern-designsize-12pt-rm-tf-0--0 m
+.\3>modern-designsize-12pt-rm-tf-0--0 d
+.\3>modern-designsize-12pt-rm-tf-0--0 .
+.\3>modern-designsize-12pt-rm-tf-0--0 P
+.etc.
+
+
+Overfull \hbox (7.08696pt too wide) in paragraph at lines 535--540
+\3>modern-designsize-12pt-rm-tf-0--0 + (string)Ses-sion["id"] + "’", con); cmd1.Ex-e-cuteNon-Query(); Re-sponse.Redi-rect("De-
+
+\hbox(9.0+3.012)x426.78743, glue set - 1.0, direction TLT
+.\3>modern-designsize-12pt-rm-tf-0--0 +
+.\glue 3.912 plus 1.956 minus 1.304
+.\3>modern-designsize-12pt-rm-tf-0--0 (
+.\3>modern-designsize-12pt-rm-tf-0--0 s
+.\3>modern-designsize-12pt-rm-tf-0--0 t
+.etc.
+
+)
+pages           > flushing realpage 36, userpage 36
+structure       > sectioning > chapter @ level 2 : 0.5 -> Discussion and Conclusion
+(chapter5.tex
+structure       > sectioning > section @ level 3 : 0.5.1 -> Discusion
+pages           > flushing realpage 37, userpage 37
+structure       > sectioning > section @ level 3 : 0.5.2 -> Conclusion
+pages           > flushing realpage 38, userpage 38
+structure       > sectioning > section @ level 3 : 0.5.3 -> Future work
+)
+pages           > flushing realpage 39, userpage 39
+structure       > sectioning > chapter @ level 2 : 0.6 -> Refrences
+(chapter6.tex)
+pages           > flushing realpage 40, userpage 40
+structure       > sectioning > chapter @ level 2 : 0.7 -> \headtext {index}
+pages           > flushing realpage 41, userpage 41
+ ){/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+
+system          > files > start used files
+
+used files      >    1: filename=main | filetype=tex | foundname=main.tex | usedmethod=filesystem
+used files      >    2: filename=cont-new.mkiv | filetype=tex | foundname=/usr/share/texmf/tex/context/base/cont-new.mkiv | usedmethod=database
+used files      >    3: filename=main.top | foundname=main.top | usedmethod=direct
+used files      >    4: filename=lang-us.lua | filetype=lua | foundname=/usr/share/texmf/tex/context/patterns/lang-us.lua | usedmethod=database
+used files      >    5: filename=mkiv-base.map | filetype=map | format=map | foundname=/usr/share/texmf/fonts/map/pdftex/context/mkiv-base.map | usedmethod=database
+used files      >    6: filename=lm.lfg | filetype=tex | foundname=/usr/share/texmf/tex/context/fonts/lm.lfg | usedmethod=database
+used files      >    7: filename=lm-math.lfg | filetype=tex | foundname=/usr/share/texmf/tex/context/fonts/lm-math.lfg | usedmethod=database
+used files      >    8: filename=lm-math.map | filetype=map | format=map | foundname=/usr/share/texmf/fonts/map/dvips/lm/lm-math.map | usedmethod=database
+used files      >    9: filename=lm-rm.map | filetype=map | format=map | foundname=/usr/share/texmf/fonts/map/dvips/lm/lm-rm.map | usedmethod=database
+used files      >   10: filename=lmroman12-regular | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf | usedmethod=database
+used files      >   11: filename=lmroman7-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf | usedmethod=database
+used files      >   12: filename=rm-lmr7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm | usedmethod=database
+used files      >   13: filename=lmmi7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmmi7.tfm | usedmethod=database
+used files      >   14: filename=lmsy7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmsy7.tfm | usedmethod=database
+used files      >   15: filename=lmex10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm | usedmethod=database
+used files      >   16: filename=msam7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm | usedmethod=database
+used files      >   17: filename=msbm7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm | usedmethod=database
+used files      >   18: filename=stmary10.afm | filetype=afm | format=afm | foundname=/usr/share/texlive/texmf-dist/fonts/afm/public/stmaryrd/stmary10.afm | usedmethod=database
+used files      >   19: filename=stmary10.pfb | filetype=pfb | format=pfb | foundname=/usr/share/texlive/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb | usedmethod=database
+used files      >   20: filename=lmroman7-bold.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman7-bold.otf | usedmethod=database
+used files      >   21: filename=lmmib7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmmib7.tfm | usedmethod=database
+used files      >   22: filename=lmsans8-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf | usedmethod=database
+used files      >   23: filename=lmmono8-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono8-regular.otf | usedmethod=database
+used files      >   24: filename=eufm7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm | usedmethod=database
+used files      >   25: filename=eufb7.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufb7.tfm | usedmethod=database
+used files      >   26: filename=lmroman9-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf | usedmethod=database
+used files      >   27: filename=rm-lmr9.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/rm-lmr9.tfm | usedmethod=database
+used files      >   28: filename=lmmi9.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmmi9.tfm | usedmethod=database
+used files      >   29: filename=lmsy9.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmsy9.tfm | usedmethod=database
+used files      >   30: filename=msam10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm | usedmethod=database
+used files      >   31: filename=msbm10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm | usedmethod=database
+used files      >   32: filename=lmroman9-bold.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf | usedmethod=database
+used files      >   33: filename=lmmib10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmmib10.tfm | usedmethod=database
+used files      >   34: filename=lmsans9-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf | usedmethod=database
+used files      >   35: filename=lmmono9-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf | usedmethod=database
+used files      >   36: filename=eufm10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm | usedmethod=database
+used files      >   37: filename=eufb10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufb10.tfm | usedmethod=database
+used files      >   38: filename=lmroman12-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf | usedmethod=database
+used files      >   39: filename=rm-lmr12.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm | usedmethod=database
+used files      >   40: filename=lmmi12.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmmi12.tfm | usedmethod=database
+used files      >   41: filename=lmsy10.tfm | filetype=tfm | format=tfm | foundname=/usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm | usedmethod=database
+used files      >   42: filename=lmroman12-bold.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf | usedmethod=database
+used files      >   43: filename=lmsans12-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf | usedmethod=database
+used files      >   44: filename=lmmono12-regular.otf | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf | usedmethod=database
+used files      >   45: filename=lmroman10-regular | filetype=otf | format=otf | foundname=/usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf | usedmethod=database
+used files      >   46: filename=lpdf-pdx.xml | filetype=tex | foundname=/usr/share/texmf/tex/context/base/lpdf-pdx.xml | usedmethod=database
+used files      >   47: filename=introduction | filetype=tex | foundname=introduction.tex | usedmethod=filesystem
+used files      >   48: filename=chapter2 | filetype=tex | foundname=chapter2.tex | usedmethod=filesystem
+used files      >   49: filename=chapter3 | filetype=tex | foundname=chapter3.tex | usedmethod=filesystem
+used files      >   50: filename=chapter4 | filetype=tex | foundname=chapter4.tex | usedmethod=filesystem
+used files      >   51: filename=1.png | format=tex | foundname=1.png | usedmethod=direct
+used files      >   52: filename=2.png | format=tex | foundname=2.png | usedmethod=direct
+used files      >   53: filename=3.png | format=tex | foundname=3.png | usedmethod=direct
+used files      >   54: filename=4.png | format=tex | foundname=4.png | usedmethod=direct
+used files      >   55: filename=5.png | format=tex | foundname=5.png | usedmethod=direct
+used files      >   56: filename=chapter5 | filetype=tex | foundname=chapter5.tex | usedmethod=filesystem
+used files      >   57: filename=chapter6 | filetype=tex | foundname=chapter6.tex | usedmethod=filesystem
+used files      >   58: filename=lm-mathsy.enc | filetype=enc | format=enc | foundname=/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc | usedmethod=database
+used files      >   59: filename=lmsy10.pfb | filetype=pfb | format=pfb | foundname=/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb | usedmethod=database
+
+system          > files > stop used files
+
+
+system          > structure > start used structure
+
+used structure  > text: main
+
+system          > structure > stop used structure
+
+
+mkiv lua stats  > used config file          - selfautodir:/share/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path           - readable: '/var/lib/texmf/luatex-cache/context/f919750633122078d706dd10f1cfd39b' (order 1)
+mkiv lua stats  > used cache path           - readable: '/home/honey/.texmf-var/luatex-cache/context/f919750633122078d706dd10f1cfd39b' (order 2)
+mkiv lua stats  > used cache path           - writable: '/home/honey/.texmf-var/luatex-cache/context/f919750633122078d706dd10f1cfd39b'
+mkiv lua stats  > resource resolver         - loadtime 0.029 seconds, 2 scans with scantime 0.001 seconds, 19 shared scans, 59 found files, scanned paths: /etc/texmf /home/honey/.texmf-var
+mkiv lua stats  > stored bytecode data      - 303 modules, 65 tables, 368 chunks
+mkiv lua stats  > cleaned up reserved nodes - 39 nodes, 9 lists of 446
+mkiv lua stats  > node memory usage         - 1 disc, 5 glue, 6 penalty, 3 glyph, 39 attribute, 351 glue_spec, 9 attribute_list
+mkiv lua stats  > node list callback tasks  - 6 unique task lists, 6 instances (re)created, 5606 calls
+mkiv lua stats  > h-node processing time    - 0.938 seconds including kernel
+mkiv lua stats  > attribute processing time - 0.231 seconds front- and backend
+mkiv lua stats  > used backend              - pdf (backend for directly generating pdf output)
+mkiv lua stats  > loaded patterns           - en::2
+mkiv lua stats  > jobdata time              - 0.006 seconds saving, 0.005 seconds loading
+mkiv lua stats  > callbacks                 - 8348 direct, 1955 indirect, 10303 total
+mkiv lua stats  > randomizer                - resumed with value 0.58357495282943
+mkiv lua stats  > lxml preparation time     - 0.000 seconds, 0 nodes, 15 lpath calls, 0 cached calls
+mkiv lua stats  > v-node processing time    - 0.571 seconds 
+mkiv lua stats  > result saved in file      - main.pdf
+mkiv lua stats  > loaded fonts              - 34 files: stmary10.afm eufb10.tfm eufb7.tfm eufm10.tfm eufm7.tfm msam10.tfm msam7.tfm msbm10.tfm msbm7.tfm lmmono12-regular.otf lmmono8-regular.otf lmmono9-regular.otf lmroman10-regular.otf lmroman12-bold.otf lmroman12-regular.otf lmroman7-bold.otf lmroman7-regular.otf lmroman9-bold.otf lmroman9-regular.otf lmsans12-regular.otf lmsans8-regular.otf lmsans9-regular.otf lmex10.tfm lmmi12.tfm lmmi7.tfm lmmi9.tfm lmmib10.tfm lmmib7.tfm lmsy10.tfm lmsy7.tfm lmsy9.tfm rm-lmr12.tfm rm-lmr7.tfm rm-lmr9.tfm
+mkiv lua stats  > fonts load time           - 0.290 seconds 
+mkiv lua stats  > graphics processing time  - 0.007 seconds including tex, 5 processed images
+mkiv lua stats  > luatex banner             - this is luatex, version beta-0.70.2-2012062323 (tex live 2012/debian)
+mkiv lua stats  > control sequences         - 33724 of 65536 + 100000
+mkiv lua stats  > current memory usage      - 48 MB (ctx: 50 MB)
+mkiv lua stats  > runtime                   - 4.033 seconds, 40 processed pages, 41 shipped pages, 10.166 pages/second
+
